@@ -1,37 +1,47 @@
+// 1. Make a vetor variable and the initial N integer numbers
+// 2. Sort Vector
+// 3. Insert the user number into the vector
+// 4. Delete the item from the vector by seaching the user value.
+//
+#include <algorithm>
+#include <cstdlib>
+#include <ctime>
+#include <iomanip>
 #include <iostream>
-#include <fstream>
+#include <vector>
 using namespace std;
 
-int findcross(int[][10]);
-bool checkup(int[][10], int, int);
-bool checkdown(int[][10], int, int);
-bool checkleft(int[][10], int, int);
-bool checkright(int[][10], int, int);
-void printout(int[][10], int);
+void makeVector(vector<int> &);
+void insertVector(vector<int> &, int);
+int deleteVector(vector<int> &, int);
 
-void printout(int M[][10], int cnt)
-{
-	for (int i = 0; i < 10; i++)
-	{
-		for (int j = 0; j < 10; j++)
-			cout << setw(5) << M[i][j];
-		cout << endl;
-	}
-	cout << "Total found cross " << cnt << endl;
-}
+int randnum(void);
+int getInput(void);
+void printVector(vector<int>);
 
-int findcross(int M[][10])
+void makeVector(vector<int> &number)
 {
 }
-bool checkup(int M[][10], int i, int j)
+void insertVector(vector<int> &number, int usernum)
 {
 }
-bool checkdown(int M[][10], int i, int j)
+int deleteVector(vector<int> &number, int usernum)
 {
 }
-bool checkleft(int M[][10], int i, int j)
+int getInput(void)
 {
+	int num;
+	cout << "Enter your input\n";
+	cin >> num;
+	return num;
 }
-bool checkright(int M[][10], int i, int j)
+int randnum(void)
 {
+	return rand() % 20;
+}
+void printVector(vector<int> number)
+{
+	for (auto iter = number.begin(); iter != number.end(); iter++)
+		cout << setw(5) << *iter;
+	cout << endl;
 }

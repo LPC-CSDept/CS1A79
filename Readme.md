@@ -5,15 +5,19 @@
 
 ---
 
-### Assignment A7-8: Lab 7-10
+### Assignment A7-9: Lab 7-11
 
 ### Open the "main.hpp"
 
 > Complete functions
 
+> > To run "main.hpp" locally, you can use the "main.cpp".
+> > g++ --std=c++17 main.cpp
+> > ./a.out
+
 ### 👓 Watch:
 
-- [Two Dimensional Arrays [Lab7-10]](https://youtu.be/bu4Ab1UN_m0)
+- [Vector Insertion and Deletion [Lab7-11]](https://youtu.be/bu4Ab1UN_m0)
 
 ## You can test your program by typing the command
 

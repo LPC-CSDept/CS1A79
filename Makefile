@@ -4,4 +4,4 @@ programtest: tests.cpp
 test: programtest 
 	./programtest
 clean:
-	rm -f programtest
+	rm -f programtest a.out
