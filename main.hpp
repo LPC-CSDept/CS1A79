@@ -1,8 +1,3 @@
-// 1. Make a vetor variable and the initial N integer numbers
-// 2. Sort Vector
-// 3. Insert the user number into the vector
-// 4. Delete the item from the vector by seaching the user value.
-//
 #include <algorithm>
 #include <cstdlib>
 #include <ctime>
