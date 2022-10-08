@@ -12,7 +12,7 @@
 > Complete functions
 
 > > To run "main.hpp" locally, you can use the "main.cpp". <br>
-> > g++ --std=c++17 main.cpp
+> > g++ --std=c++17 main.cpp <br>
 > > ./a.out
 
 ### 👓 Watch:
